@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>
+        Yaari
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="Sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">THING1</a></li>
+                    <li><a href="">THING2</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>BLOGS</h1>
+    </section>
+
+
+    <!-- Blog pge Content-->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/tttttt.jpg">
+                <h2>
+                    Accha Lagta Hai.
+                </h2>
+                <p> kuch kuch toh maine bola tha par abhi yaad nahi hai.Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                    1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                    survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing softw</p>
+                <br>
+                <p>kuch kuch toh maine bola tha par abhi yaad nahi hai.Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                    1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                    survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged.
+                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and more recently with desktop publishing softw</p>
+
+                    <div class="comment-box">
+                        <h3> Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        
+                        </form>
+                    </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>
+                    CATEGORIES
+                </h3>
+                <div>
+                    <span>Bisuness Analytics</span>
+                    <span> 369</span>
+                </div>
+                <div>
+                    <span>Machine Learning Hentai</span>
+                    <span> 69</span>
+                </div>
+                <div>
+                    <span>Data scientist</span>
+                    <span> 141469</span>
+                </div>
+                <div>
+                    <span>core k chode</span>
+                    <span>6969</span>
+                </div>
+                <div>
+                    <span>cricket wala</span>
+                    <span> 99</span>
+                </div>
+                <div>
+                    <span>Musician</span>
+                    <span> 1469</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>kuch kuch toh bolo accha sa.uch kuch toh maine bola tha par abhi yaad nahi hai.Lorem Ipsum is
+            simply dummy text of the printing<br>
+            and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+            1500s,<br>
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+            has survived</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o "></i> </p>
+    </section>
+
+
+
+
+
+    <!--java script for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
